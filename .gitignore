@@ -1,0 +1,21 @@
+# Build outputs
+*.exe
+*.o
+*.res
+.tmp/
+
+# Runtime files
+*.log
+config.json
+rendezvous_url.txt
+
+# Cloudflare/Wrangler local state
+worker/.wrangler/
+worker/wrangler.local.toml
+worker/node_modules/
+
+# Editor/OS noise
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

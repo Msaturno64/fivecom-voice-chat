@@ -1,0 +1,10 @@
+name = "fivecom-rendezvous"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+# Después de crear el namespace con `wrangler kv namespace create FIVECOM`,
+# copiá este archivo a wrangler.local.toml o reemplazá el placeholder localmente.
+# No commitear IDs reales de Cloudflare.
+kv_namespaces = [
+  { binding = "FIVECOM", id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+]

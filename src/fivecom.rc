@@ -1,0 +1,8 @@
+#include "resource.h"
+
+IDI_FIVECOM ICON "../assets/fivecom.ico"
+IDI_BTN_LEAVE ICON "../assets/btn_leave.ico"
+IDI_BTN_MIC ICON "../assets/btn_mic.ico"
+IDI_BTN_MIC_MUTED ICON "../assets/btn_mic_muted.ico"
+IDI_BTN_HEADPHONES ICON "../assets/btn_headphones.ico"
+IDI_BTN_HEADPHONES_MUTED ICON "../assets/btn_headphones_muted.ico"
