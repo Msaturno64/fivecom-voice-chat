@@ -1,0 +1,9 @@
+name = "fivecom-rendezvous"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+# Después de crear el namespace con `wrangler kv namespace create FIVECOM`,
+# pegá acá el id que te devuelve.
+kv_namespaces = [
+  { binding = "FIVECOM", id = "0865d5e132e24f1cb860848a8a4d809d" }
+]

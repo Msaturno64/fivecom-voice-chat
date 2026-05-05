@@ -1,0 +1,8 @@
+#pragma once
+
+#define IDI_FIVECOM 101
+#define IDI_BTN_LEAVE 102
+#define IDI_BTN_MIC 103
+#define IDI_BTN_MIC_MUTED 104
+#define IDI_BTN_HEADPHONES 105
+#define IDI_BTN_HEADPHONES_MUTED 106
